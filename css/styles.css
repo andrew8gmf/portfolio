@@ -46,7 +46,7 @@ html,body{
 
 .presentation h1:first-of-type{
     line-height: 80px;
-    color: white;
+    color: #03c02c;
     font-size: 40px;
 }
 
@@ -115,27 +115,40 @@ html,body{
 .me{
     width: 100%;
     height: 70%;
-    background-color: #a89f9f;
+    background-color: initial;
+}
+
+.me img{
+    position: fixed;
+    z-index: -1;
+    width: 52%;
+    margin-top: -8%;
+    background-repeat: no-repeat;
 }
 
 .resume{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 30%;
     background-color: white;
-    align-items: center;
-    justify-content: center;
 }
 
 .resume div{
     display: flex;
     flex-direction: column;
-    width: 85%;
-    height: 80%;
+    width: 90%;
+    height: 50%;
+    margin: 2% 5% 0 5%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .resume div h1{
     word-break: break-all;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .view{
@@ -143,10 +156,18 @@ html,body{
     outline: 0;
     width: 30%;
     height: 30%;
-    background-color: #21324e;
     color: white;
     font-size: 18px;
     font-weight: bold;
+    margin-left: 5%;
+    background-image: linear-gradient(to right, #034632, #003d2b, #034632);
+    background-size: 200%;
+    transition: .5s;
+}
+
+.view:hover {
+    background-position: right;
+    cursor: pointer;
 }
 
 /* Menu */
@@ -155,7 +176,6 @@ html,body{
     flex-direction: column;
     width: 8%;
     height: 100%;
-    background-color: #1d2d47;
     justify-content: center;
 }
 
@@ -165,13 +185,17 @@ html,body{
     text-align: center;
 }
 
-.menu ul li:hover{
-    background-color: #21324e;
-    cursor: pointer;
+.menu ul li{
+    background-color: #003d2b;
 }
 
 .menu ul li.active{
-    background-color: #21324e;
+    background-color: #034632;
+}
+
+.menu ul li:hover{
+    background-color: #0b4e3a;
+    cursor: pointer;
 }
 
 .menu ul li a{
