@@ -90,6 +90,14 @@ html,body{
     text-align: center;
 }
 
+.menu ul li:hover{
+    background-color: #21324e;
+}
+
+.menu ul li.active{
+    background-color: #21324e;
+}
+
 .menu ul li a{
     writing-mode: vertical-rl;
     color: #ffffff;
@@ -98,8 +106,5 @@ html,body{
     font-size: 20px;
     font-weight: bold;
     padding: 20% 0;
-}
-
-.menu ul li.active{
-    background-color: #21324e;
+    height: 11%;
 }
