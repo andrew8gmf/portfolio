@@ -85,6 +85,26 @@ html,body{
     color: white;
 }
 
+.icons i:nth-child(1):hover{
+    color: 	#3b5998;
+    cursor: pointer;
+}
+
+.icons i:nth-child(2):hover{
+    color: #C13584;
+    cursor: pointer;
+}
+
+.icons i:nth-child(3):hover{
+    color: #2867B2;
+    cursor: pointer;
+}
+
+.icons i:nth-child(4):hover{
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
 /* Conteúdo */
 .content{
     width: 52%;
