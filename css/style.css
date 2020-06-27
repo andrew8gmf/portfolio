@@ -20,16 +20,28 @@ html,body{
     background-color: #3a428a;
 }
 
-.presentation{
+.upper{
     width: 100%;
     height: 60%;
     background-color: initial;
 }
 
-.social{
+.bottom{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 40%;
     background-color: initial;
+    justify-content: flex-end;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Conteúdo */
