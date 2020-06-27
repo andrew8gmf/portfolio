@@ -105,6 +105,11 @@ html,body{
     cursor: pointer;
 }
 
+.icons i:nth-child(5):hover{
+    color: #24292e;
+    cursor: pointer;
+}
+
 /* Conteúdo */
 .content{
     width: 52%;
