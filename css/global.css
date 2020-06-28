@@ -216,6 +216,7 @@ html,body{
 
 .about-me{
     display: flex;
+    flex-direction: column;
     justify-content: start;
     width: 85%;
     margin-left: 15%;
@@ -236,4 +237,39 @@ html,body{
 
 .technologies{
     display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 30%;
+    margin-left: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.technologies a{
+    color: white;
+}
+
+.technologies a:nth-child(1):hover{
+    cursor: pointer;
+    color: #e75324;
+}
+
+.technologies a:nth-child(2):hover{
+    cursor: pointer;
+    color: #056cbb;
+}
+
+.technologies a:nth-child(3):hover{
+    cursor: pointer;
+    color: #543c7c;
+}
+
+.technologies a:nth-child(4):hover{
+    cursor: pointer;
+    color: #f3e31c;
+}
+
+.technologies a:nth-child(5):hover{
+    cursor: pointer;
+    color: #62dcfc;
 }
