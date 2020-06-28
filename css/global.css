@@ -165,7 +165,6 @@ html,body{
 
 .menu ul li:hover{
     background-color: #0b4e3a;
-    cursor: pointer;
 }
 
 .menu ul li a{
@@ -211,4 +210,30 @@ html,body{
     .menu{
         overflow-y: auto;
     }
+}
+
+/* Page about me */
+
+.about-me{
+    display: flex;
+    justify-content: start;
+    width: 85%;
+    margin-left: 15%;
+}
+
+.about-me h1:first-of-type{
+    line-height: 80px;
+    color: #65ff8b;
+    font-size: 40px;
+}
+
+.about-me h1:last-of-type{
+    line-height: 80px;
+    margin-top: -50px;
+    color: white;
+    font-size: 80px;
+}
+
+.technologies{
+    display: flex;
 }
