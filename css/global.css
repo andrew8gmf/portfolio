@@ -224,7 +224,7 @@ html,body{
 
 .about-me h1:first-of-type{
     line-height: 80px;
-    color: #65ff8b;
+    color: #ccff2c;
     font-size: 40px;
 }
 
@@ -272,4 +272,32 @@ html,body{
 .technologies a:nth-child(5):hover{
     cursor: pointer;
     color: #62dcfc;
+}
+
+/* Contact page */
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.contact a{
+    color: white;
+}
+
+.contact a:nth-child(1):hover{
+    cursor: pointer;
+    color: #DD4B3E;
+}
+
+.contact a:nth-child(2):hover{
+    cursor: pointer;
+    color: #c71610
+}
+
+.contact a:nth-child(3):hover{
+    cursor: pointer;
+    color: #25D366;
 }
