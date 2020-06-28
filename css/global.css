@@ -112,7 +112,7 @@ html,body{
     cursor: pointer;
 }
 
-/* Conteúdo */
+/* Right */
 .right{
     display: flex;
     flex-direction: column;
