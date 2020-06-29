@@ -53,6 +53,7 @@ html,body{
 .presentation h1:last-of-type{
     line-height: 80px;
     margin-top: -50px;
+    margin-bottom: 0;
     color: white;
     font-size: 80px;
 }
@@ -231,6 +232,7 @@ html,body{
 .about-me h1:last-of-type{
     line-height: 80px;
     margin-top: -50px;
+    margin-bottom: 0;
     color: white;
     font-size: 80px;
 }
@@ -300,4 +302,43 @@ html,body{
 .contact a:nth-child(3):hover{
     cursor: pointer;
     color: #25D366;
+}
+
+/* Portfolio page */
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.columns img{
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+.columns a{
+    text-decoration: none;
+}
+
+.git-title{
+    line-height: 80px;
+    margin-bottom: 0;
+    color: white;
+    font-size: 40px;
+}
+
+.git-text{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+    word-break: break-all;
 }
